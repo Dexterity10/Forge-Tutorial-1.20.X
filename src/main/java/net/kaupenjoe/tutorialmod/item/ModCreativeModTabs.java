@@ -24,7 +24,7 @@ public class ModCreativeModTabs {
 
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
 
-                        pOutput.accept(Items.DIAMOND);
+
 
                         pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
@@ -36,6 +36,10 @@ public class ModCreativeModTabs {
 
                         pOutput.accept(ModBlocks.SOUND_BLOCK.get());
 
+
+                        pOutput.accept(ModBlocks.GRANITE_BRICKS.get());
+                        pOutput.accept(ModBlocks.DIORITE_BRICKS.get());
+                        pOutput.accept(ModBlocks.ANDESITE_BRICKS.get());
                     })
                     .build());
 

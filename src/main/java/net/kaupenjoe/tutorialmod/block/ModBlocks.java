@@ -43,6 +43,13 @@ public class ModBlocks {
     public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
             () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
+    //stone variants
+    public static final RegistryObject<Block> GRANITE_BRICKS = registerBlock("granite_bricks",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE)));
+    public static final RegistryObject<Block> DIORITE_BRICKS = registerBlock("diorite_bricks",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIORITE)));
+    public static final RegistryObject<Block> ANDESITE_BRICKS = registerBlock("andesite_bricks",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.ANDESITE)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

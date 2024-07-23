@@ -15,5 +15,13 @@
   "block.tutorialmod.sound_block": "Sound Block",
 
 
-  "creativetab.tutorial_tab": "Sapphire Tutorial Tab"
+  "creativetab.tutorial_tab": "Sapphire Tutorial Tab",
+
+
+
+  "block.tutorialmod.granite_bricks": "Granite Bricks",
+  "block.tutorialmod.diorite_bricks": "Diorite Bricks",
+  "block.tutorialmod.andesite_bricks": "Andesite Bricks"
+
+
 }
