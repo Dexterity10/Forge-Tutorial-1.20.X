@@ -40,6 +40,9 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.GRANITE_BRICKS.get());
                         pOutput.accept(ModBlocks.DIORITE_BRICKS.get());
                         pOutput.accept(ModBlocks.ANDESITE_BRICKS.get());
+                        pOutput.accept(ModBlocks.CRACKED_GRANITE_BRICKS.get());
+                        pOutput.accept(ModBlocks.CRACKED_DIORITE_BRICKS.get());
+                        pOutput.accept(ModBlocks.CRACKED_ANDESITE_BRICKS.get());
                     })
                     .build());
 

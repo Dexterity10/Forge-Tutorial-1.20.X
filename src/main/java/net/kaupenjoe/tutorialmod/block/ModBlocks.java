@@ -50,6 +50,12 @@ public class ModBlocks {
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIORITE)));
     public static final RegistryObject<Block> ANDESITE_BRICKS = registerBlock("andesite_bricks",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.ANDESITE)));
+    public static final RegistryObject<Block> CRACKED_GRANITE_BRICKS = registerBlock("cracked_granite_bricks",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE)));
+    public static final RegistryObject<Block> CRACKED_DIORITE_BRICKS = registerBlock("cracked_diorite_bricks",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIORITE)));
+    public static final RegistryObject<Block> CRACKED_ANDESITE_BRICKS = registerBlock("cracked_andesite_bricks",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.ANDESITE)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

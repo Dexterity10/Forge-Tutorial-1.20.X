@@ -21,7 +21,11 @@
 
   "block.tutorialmod.granite_bricks": "Granite Bricks",
   "block.tutorialmod.diorite_bricks": "Diorite Bricks",
-  "block.tutorialmod.andesite_bricks": "Andesite Bricks"
+  "block.tutorialmod.andesite_bricks": "Andesite Bricks",
+  "block.tutorialmod.cracked_granite_bricks": "Cracked Granite Bricks",
+  "block.tutorialmod.cracked_diorite_bricks": "Cracked Diorite Bricks",
+  "block.tutorialmod.cracked_andesite_bricks": "Cracked Andesite Bricks"
+
 
 
 }
